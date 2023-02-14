@@ -38,7 +38,7 @@
 
     @media (max-width:768px) {
       body {
-        padding: 29px 40px;
+        padding: 29px 0;
       }
     }
 
@@ -75,15 +75,6 @@
       }
     }
 
-    @media (max-width:767px) {
-      .wrapper {
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0em;
-        text-align: center;
-      }
-    }
 
     @media (max-width:767px) {
       .wrapper>img {
@@ -128,12 +119,23 @@
         font-size: 9px;
         line-height: 25px;
         color: #333333;
+        padding: 0 56.21px;
       }
     }
 
     @media (max-width:767px) {
       .regards img {
         width: 60px;
+      }
+    }
+
+    @media (min-width:767) {
+      .links a {
+        font-style: normal;
+        margin-bottom: 20px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
       }
     }
 
@@ -155,11 +157,11 @@
       }
 
       .as-seen::after {
-        right: 20px;
+        right: 65px;
       }
 
       .as-seen::before {
-        left: 20px;
+        left: 65px;
       }
     }
 
@@ -167,16 +169,16 @@
 
       .as-seen::after,
       .as-seen::before {
-        width: 8.5em;
-        border: 2px solid #F1F1F1;
+        width: 6.5em;
+        border: 1px solid #F1F1F1;
       }
 
       .as-seen::before {
-        left: 37px;
+        left: 80px;
       }
 
       .as-seen::after {
-        right: 37px;
+        right: 80px;
       }
     }
 
@@ -196,6 +198,43 @@
     img {
       max-width: 100%;
     }
+
+    hr {
+      width: 374.5px;
+    }
+
+    @media (max-width:767px) {
+      hr {
+        width: 262.59px;
+      }
+    }
+
+    @media (min-width:768px) {
+      table {
+        width: 374.5px;
+        margin: 0 auto;
+      }
+    }
+
+    @media (max-width:768px) {
+      table {
+        border-spacing: 0;
+        width: 70%;
+        margin: 0 auto;
+      }
+    }
+
+    .logos .row-1 img {
+      width: 90px;
+    }
+
+    .logos .row-2 img {
+      width: 60px;
+    }
+
+    .logos .row-2 img:nth-child(2) {
+      width: 100px;
+    }
   </style>
   <title>Document</title>
 </head>
@@ -211,16 +250,44 @@
       <div class="heading">
         <h1>Your Press Release Has
           Been Distributed</h1>
-        <!-- Feel free to make any changes before it is distributed to 
-          over 100 news sites. -->
-        <p style="font-style: 500;
-                  font-weight: 400;
-                  font-size: 14px;
-                  line-height: 24px;
-                  ">Feel free to make any changes before it is distributed to <br> over 100 news sites.</p>
+      </div>
+      <!-- Paragraph -->
+      <div class="paragraph" style="background-color: #f7f7f7;
+       padding: 15.64px 56.21px;">
+        <!-- Hi <first name>, -->
+        <p style="
+      height: 24px;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: left;">Hi &lt;first name&gt;,</p>
+
+        <p style="
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 24px;
+                text-align: left;
+                color: #4F4F4F;">Congratulations! Your press release has been published and has earned significant
+          media coverage being read by both local and national readers. While it is still being syndicated and picked up
+          by other outlets, we wanted to
+          give you some reporting on the impressive amount of visibility it has already received. We also wanted to
+          provide
+          you with your <b>Digital Trust Badge</b>.
+          <br>
+          <br>
+          <b>As Seen on Trust Badge</b>
+          <br>
+          <i>Your As Seen On Trust Badge builds </i>credibility and boosts your online presence. Display it on your
+          website
+          and
+          social media to establish yourself as a real estate authority with clients website visitors.<br><br>
+
+          Here are some key metrics and compilation of outlets where your press release appears:
+        </p>
       </div>
       <!-- Banner Image  -->
-      <div class="banner">
+      <div class="banner" style="margin-top: 32.44px;
+      padding: 0 56.21px;">
         <img src="https://i.ibb.co/gvnhWpp/Banner.png" alt="">
       </div>
       <!-- As Seen On -->
@@ -232,7 +299,7 @@
                 letter-spacing: 0.2em;
                 color: #828282;" class="as-seen">As Seen On</p>
       <!-- Logos  -->
-      <img src="https://i.ibb.co/3NgvKMn/logos.png" alt="">
+      <img style="width: 250px;" src="https://i.ibb.co/3NgvKMn/logos.png" alt="">
       <!-- Recognized by BestAgents.Us -->
       <p style="text-transform: uppercase; font-style: normal;
                 font-weight: 500;
@@ -241,49 +308,90 @@
                 color: #BDBDBD;">Recognized by BestAgents.Us</p>
       <!-- divider -->
       <hr style="border: 1px solid #ccc;">
-      <!-- Your Press Release Has Been Distributed -->
-      <h2 style="
-                font-style: normal;
-                font-weight: 500;
-                font-size: 21px;
-                line-height: 24px;">Your Press Release Has Been Distributed</h2>
-      <!-- Hi <first name>, -->
-      <p style="
-                height: 24px;
-                font-weight: 500;
-                font-size: 16px;
-                line-height: 24px;
-                text-align: left;">Hi &lt;first name&gt;,</p>
-      <!-- Paragraph -->
-      <p style="
-                font-weight: 400;
-                font-size: 14px;
-                line-height: 24px;
-                text-align: left;
-                color: #4F4F4F;">Congratulations! Your press release has been published and has earned significant
-        media coverage being read by both local and national readers. While it is still being syndicated and picked up
-        by other outlets, we wanted to
-        give you some reporting on the impressive amount of visibility it has already received. We also wanted to
-        provide
-        you with your <b>Digital Trust Badge</b>.
-        <br>
-        <br>
-        <b>As Seen on Trust Badge</b>
-        <br>
-        <i>Your As Seen On Trust Badge builds </i>credibility and boosts your online presence. Display it on your
-        website
-        and
-        social media to establish yourself as a real estate authority with clients website visitors.<br><br>
 
-        Here are some key metrics and compilation of outlets where your press release appears:
-      </p>
     </div>
-    <!-- Divider -->
-    <div class="footer-divider">
-      <hr style="border: 1px solid #cccccc;">
+    <!-- A snapshot of some of the news outlets covering your press release -->
+    <p style="
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 0 20px;
+">A snapshot of some of the news outlets
+      covering your press release</p>
+    <!-- Form  -->
+    <table style="border-spacing: 0;">
+      <tr style="background-color: #23555F;
+      ">
+        <th style="
+        color: white;
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: center;
+        padding: 5px 0;
+        " colspan="2">Media & Readership Metrics</th>
+      </tr>
+      <tr>
+        <td style="background-color: #DBEDF1;
+        font-family: Poppins;
+        font-size: 21px;
+        font-weight: 700;
+        padding:20px 0 0 0;
+
+        ">1.5 Million</td>
+        <td style="background-color: #ECF6F8;
+                font-family: Poppins;
+                font-size: 21px;
+                font-weight: 700;
+                letter-spacing: 0em;
+                padding:20px 0 0 0;
+                ">164</td>
+      </tr>
+      <tr>
+        <td style="background-color: #DBEDF1;
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 400;
+        padding:20px;
+        ">Millions Website visitors to the site where your release is posted</td>
+        <td style="background-color: #ECF6F8;
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 400;
+        padding:20px;
+        ">news outlets & journalists who picked up your press release</td>
+      </tr>
+    </table>
+    <!-- Logos  -->
+    <div class="logos" style="background-color: #f7f7f7;
+    padding: 15.64px 56.21px;
+    margin-top: 33.87px;
+    ">
+      <div class="row-1" style="display: flex;
+        align-items: center;
+        justify-content: space-between;">
+        <img src="https://i.ibb.co/ZxHmYHW/image-63.png" alt="">
+        <img src="https://i.ibb.co/VSnLYZT/image-61.png" alt="">
+        <img src="https://i.ibb.co/7yJrhWY/image-69.png" alt="">
+
+
+      </div>
+      <br>
+      <div class="row-2" style="display: flex;
+        align-items: center;
+        justify-content: space-between;">
+        <img src="https://i.ibb.co/2PcrQc6/image-66.png" alt="">
+        <img src="https://i.ibb.co/PW3qGbw/image-68.png" alt="">
+        <img src="https://i.ibb.co/WcwJKnL/image-67.png" alt="">
+      </div>
     </div>
     <!-- Footer  -->
-    <p class="footer">If you have any questions, feel free to reach out at any time.
+    <p class=" footer">If you have any questions, feel free to reach out at any time.
     </p>
     <!-- Regards -->
     <div class="regards" style="display: flex;
@@ -300,12 +408,7 @@
       </div>
     </div>
     <!-- Links  -->
-    <div class="links" style="
-    margin-top: 129px;
-    font-style: normal;
-         font-weight: 400;
-         font-size: 14px;
-         line-height: 24px;">
+    <div class="links" style="font-size: 10px;">
       <a href="#">Privacy</a>
       <a href="#">Account</a>
       <a href="#">Unsubscribe</a>
