@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <style>
+    * {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      height: 1409px;
+      text-align: center;
+      background: #FFFFFF;
+      padding: 29px 0px;
+      margin: 0 auto 29px;
+    }
+
+    @media (min-width:768px) {
+      body {
+        width: 600px;
+      }
+    }
+
+    @media (max-width:768px) {
+      body {
+        padding: 29px 40px;
+      }
+    }
+
+    @media (max-width:767px) {
+      .heading p br {
+        display: none;
+      }
+    }
+
+    @media (min-width:767px) {
+      h1 {
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 48px;
+        letter-spacing: 0em;
+      }
+    }
+
+    @media (max-width:767px) {
+      h1 {
+        font-weight: 700;
+        font-size: 24px;
+        letter-spacing: 0em;
+      }
+    }
+
+    .wrapper {
+      position: relative;
+    }
+
+    @media (min-width:768px) {
+      .wrapper {
+        width: 486.91px;
+      }
+    }
+
+    @media (max-width:767px) {
+      .wrapper {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+      }
+    }
+
+    @media (max-width:767px) {
+      .wrapper>img {
+        width: 255px;
+      }
+    }
+
+    @media (min-width:768px) {
+      .footer {
+        width: 600px;
+      }
+    }
+
+    @media (min-width:768px) {
+      .footer-divider hr {
+        width: 520px;
+      }
+    }
+
+    @media (max-width:768px) {
+      .footer-divider hr {
+        width: 320px;
+      }
+    }
+
+    a {
+      text-decoration: none;
+      color: #939393;
+    }
+
+    .as-seen {
+      position: relative;
+    }
+
+    @media (max-width:767px) {
+
+      .as-seen::after,
+      .as-seen::before {
+        width: 4.2em;
+        border: 1.5px solid #F1F1F1;
+      }
+
+      .as-seen::after {
+        right: 20px;
+      }
+
+      .as-seen::before {
+        left: 20px;
+      }
+    }
+
+    @media (min-width:767px) {
+
+      .as-seen::after,
+      .as-seen::before {
+        width: 8.5em;
+        border: 2px solid #F1F1F1;
+      }
+
+      .as-seen::before {
+        left: 37px;
+      }
+
+      .as-seen::after {
+        right: 37px;
+      }
+    }
+
+    .as-seen::before,
+    .as-seen::after {
+      content: "";
+      position: absolute;
+      height: 0px;
+      top: 7.4px;
+    }
+
+    b {
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    img {
+      max-width: 100%;
+    }
+  </style>
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- Logo  -->
+    <div class="logo">
+      <img src="https://i.ibb.co/TtgbYVF/image-1.png" alt="">
+    </div>
+    <!-- Title  -->
+    <div class="heading">
+      <h1>Your Press Release Has
+        Been Distributed</h1>
+      <!-- Feel free to make any changes before it is distributed to 
+          over 100 news sites. -->
+      <p style="
+      font-style: 500;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      ">Feel free to make any changes before it is distributed to <br> over 100 news sites.</p>
+    </div>
+    <!-- Banner Image  -->
+    <div class="banner">
+      <img src="https://i.ibb.co/gvnhWpp/Banner.png" alt="">
+    </div>
+    <!-- As Seen On -->
+    <!-- Decoration by pseudo elements in head style -->
+    <p style="text-transform: uppercase; font-style: normal;
+    font-weight: 500;
+    font-size: 14.3211px;
+    line-height: 19px;
+    letter-spacing: 0.2em;
+    color: #828282;" class="as-seen">As Seen On</p>
+    <!-- Logos  -->
+    <img src="https://i.ibb.co/3NgvKMn/logos.png" alt="">
+    <!-- Recognized by BestAgents.Us -->
+    <p style="text-transform: uppercase; font-style: normal;
+    font-weight: 500;
+    font-size: 11.1386px;
+    line-height: 19px;
+    color: #BDBDBD;">Recognized by BestAgents.Us</p>
+    <!-- divider -->
+    <hr style="border: 1px solid #ccc;">
+    <!-- Your Press Release Has Been Distributed -->
+    <h2 style="
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 24px;">Your Press Release Has Been Distributed</h2>
+    <!-- Hi <first name>, -->
+    <p style="
+    height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;">Hi &lt;first name&gt;,</p>
+    <!-- Paragraph -->
+    <p style="
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: left;
+    color: #4F4F4F;">Congratulations! Your press release has been published and has earned significant media
+      coverage being read by
+      both local and national readers. While it is still being syndicated and picked up by other outlets, we wanted to
+      give you some reporting on the impressive amount of visibility it has already received.  We also wanted to provide
+      you with your <b>Digital Trust Badge</b>.
+      <br>
+      <br>
+      <b>As Seen on Trust Badge</b>
+      <br>
+      <i>Your As Seen On Trust Badge builds </i>credibility and boosts your online presence. Display it on your website
+      and
+      social media to establish yourself as a real estate authority with clients website visitors.<br><br>
+
+      Here are some key metrics and compilation of outlets where your press release appears:
+    </p>
+  </div>
+  <!-- Divider -->
+  <div class="footer-divider">
+    <hr style="border: 1px solid #cccccc; margin: 5px auto;">
+  </div>
+  <!-- Footer  -->
+  <div class="footer">
+    <br>
+    <p style="font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #333333;
+    ">If you have any questions, feel free to reach out at any time.
+    </p>
+  </div>
+  <!-- Regards -->
+  <div class="regards" style=" font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  color: #333333;">
+    <p style="line-height: 1.6;
+    text-align: left;">Kindest Regards,<br>Tricia Walker</p>
+    <p style="text-align: left;">BestAgents.us<br>tricia@email.bestagents.us</p>
+    <img src="https://i.ibb.co/c6gZwqZ/Ellipse-1.png" alt="">
+  </div>
+  <div class="links" style="font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;">
+    <a style="text-decoration: underline;" href="#">Privacy</a>
+    <a style="text-decoration: underline;" href="#">Account</a>
+    <a style="text-decoration: underline;" href="#">Unsubscribe</a>
+  </div>
+
+</body>
+
+</html>
