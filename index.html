@@ -129,12 +129,22 @@
       }
     }
 
-    @media (min-width:767) {
-      .links a {
+    @media (min-width:767px) {
+      a {
         font-style: normal;
         margin-bottom: 20px;
         font-weight: 400;
         font-size: 14px;
+        line-height: 24px;
+      }
+    }
+
+    @media (max-width:767px) {
+      a {
+        font-style: normal;
+        margin-bottom: 20px;
+        font-weight: 400;
+        font-size: 10px;
         line-height: 24px;
       }
     }
@@ -408,7 +418,7 @@
       </div>
     </div>
     <!-- Links  -->
-    <div class="links" style="font-size: 10px;">
+    <div class="links">
       <a href="#">Privacy</a>
       <a href="#">Account</a>
       <a href="#">Unsubscribe</a>
